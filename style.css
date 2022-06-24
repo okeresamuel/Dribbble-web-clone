@@ -1,0 +1,595 @@
+body {
+    /* we remove the default margin and padding on our body*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* we give our landing img a width 100% to cover the entire container */
+  .OurlandingImg {
+    width: 100%;
+  }
+  .msg_num{
+      box-shadow: 0px 0px 0px 1px #dbdbde inset;
+      padding: 3px;
+      position: absolute;
+      top: -8px;
+      left: 24px;
+      border-radius: 50%;
+      background-color:#ffffff;
+  }
+  .button{
+      position: relative;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+    position: fixed;
+    top: 0;
+    z-index: 33;
+    width: 100%;
+    background-color: #fff;
+  }
+  .menu_icon {
+    display: none;
+  }
+  #searchbar{
+      display:none;
+  }
+  .nav_links_Firstgrp {
+    display: inline;
+    position: relative;
+    top: -8px;
+    left: 10px;
+  }
+  .linkOneDiv,
+  .linkTwoDiv,
+  .linkThreeDiv,
+  .linkFourDiv,
+  .linkFiveDiv,
+  .linkSixDiv {
+    display: inline;
+  }
+  .signIn_shareMyworkDiv {
+    position: relative;
+    top: 6px;
+  }
+  .sharemyworkbtn {
+    background-color: #ea4c89;
+    color: #fff !important;
+    border-radius: 7px;
+    padding: 10px;
+  }
+  .Icon_search {
+    position: relative;
+    left: -40px;
+    top: 4px;
+  }
+  .Sign_In {
+    color: #6e6d79;
+    position: relative;
+    left: -40px;
+    margin: 10px;
+  }
+  .cully_text{
+      cursor: pointer;
+  } 
+  .link {
+    margin: 5px;
+    color: #757480;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .menu_Icon {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  .Boy_img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+  }
+  .small_bluePic {
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    left: 29px;
+    top: 32px;
+  }
+  .BoyAnd_bluePicDiv {
+    position: relative;
+  }
+  .savebtn {
+    background-color: #ea4c89;
+    color: #fff;
+    padding: 9px 25px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  .likebtn {
+    background-color: #f3f3f4;
+    cursor: pointer;
+    color: #0d0c22;
+    padding: 12px 17px 13px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+  }
+  .btnHeart {
+    position: relative;
+    top: 4px;
+    left: -7px;
+  }
+  #save_likebtn {
+    float: right;
+    position: relative;
+    top: -30px;
+    left: 4px;
+    display: none;
+  }
+  .Boy_DescripTionDiv {
+    position: relative;
+    left: 13px;
+    top: 2px;
+    line-height: 24px;
+  }
+  .Hire_us {
+    color: #e10057;
+  }
+  .Boy_name,
+  .Follow_text {
+    color: #6e6d79;
+    font-weight: 400;
+  }
+  .Icon_div {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .button {
+    padding: 12px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 1px #dbdbde inset;
+    border: 0.5px solid #8080800c;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+  }
+  .Mickeal_textDiv {
+    padding: 8px 18px 20px 18px;
+    margin-top: 69px;
+  }
+  .pointingman_Img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .hoverPic_OuterDiv {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  .manpic_one,
+  .manpic_Two {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+  }
+  .man_img {
+    border-radius: 5px;
+  }
+  .manpic_one:hover {
+    outline: 4px solid rgba(128, 128, 128, 0.205);
+  }
+  .manpic_Two:hover {
+    outline: 4px solid rgba(128, 128, 128, 0.205);
+  }
+  .manpic_one:focus {
+    border: 2px solid #ea4c89;
+  }
+  /* Hello everyone! ...*/
+  .descripTion_Div {
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.637);
+  }
+  .email,
+  .ig,
+  .name,
+  .viewProfile {
+    color:#e10057;
+  }
+
+  .BlueCircleAnd_LinesDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 0px 0px 0px;
+    padding-bottom: 10px;
+  }
+  .line_one,
+  .line_two {
+    width: 40%;
+    height: 2px;
+    background-color: #6e6d792e;
+    position: relative;
+    top: 53px;
+    margin: 0px;
+  }
+  .blueImg {
+    width: 75px;
+    border-radius: 70%;
+  }
+  .OneWeek_wonders {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 16px;
+    color: #0d0c22;
+  }
+  .OneWeekText,
+  .Hire_usbtn {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .Agency_text {
+    font-size: 15px;
+    color: #0d0c22c9;
+  }
+  .Hire_usbtn {
+    background-color: #ea4c89;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    top: 14px;
+  }
+  .HireUs_messageIcon {
+    position: relative;
+    left: -5px;
+    top: 1.1px;
+  }
+  .viewProfile {
+    float: right;
+    font-weight: 100;
+  }
+  .manImg_App,
+  .digital_DashBod,
+  .DeliveryApp,
+  .BuildingLanding_page,
+  .FastDeliver_img,
+  .OrderFood_img,
+  .Ads,
+  .FoodOnPhone_imgDisplay,
+  .cartoon_img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  .Image_enclosureDiv,
+  .Image_enclosureDivSecondLayer {
+    display: grid;
+    grid-gap: 36px;
+    grid-template-columns: auto;
+  }
+  .Img_One,
+  .Img_Two,
+  .Img_Three,
+  .Img_Four,
+  .Img_five,
+  .Img_six,
+  .ImgDisplay_heading {
+    width: 95%;
+    margin: auto;
+  }
+  .Img_hr {
+    color: #e7e7e902;
+    margin: 40px 0px;
+  }
+  .ImgIcon_One,
+  .ImgIcon_Two,
+  .ImgIcon_Three,
+  .ImgIcon_Four,
+  .ImgIcon_Five,
+  .ImgIcon_Six {
+    border-radius: 50%;
+    width: 25px;
+    position: relative;
+    top: 6px;
+    margin: 0px 7px 0px 0px;
+    cursor: pointer;
+  }
+  .proLink_one,
+  .proLink_Two,
+  .teamLink_One,
+  .teamLink_Two,
+  .teamLink_Three,
+  .teamLink_Four {
+    color: #fff;
+    border-radius: 4px;
+    padding: 0px 4px 1px 4px;
+    position: relative;
+    top: -2px;
+    left: 6px;
+    font-size: 13px;
+    background-color: #0d0c2233;
+  }
+  /* hover effect for icon buttons */
+  .IconBtnHover {
+    color: white;
+    background-color: #ea4c89;
+    transition-duration: 300;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .LikeDiv {
+    display: flex;
+    justify-content: center;
+    padding: 42px 0px 40px 0px;
+  }
+  .L,
+  .F {
+    padding: 7px 6px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    margin: 0px 7px 0px 7px;
+    cursor: context-menu;
+  }
+  .Like {
+    padding: 10px;
+    font-size: 12px;
+    cursor: context-menu;
+  }
+  footer {
+    background-color: #fafafb;
+    color: #3d3d4e;
+  }
+  #first_footerInfoDiv {
+    padding: 44px 20px 20px 20px;
+  }
+  #subContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .dribbleIcon {
+    width: 104px;
+    cursor: pointer;
+  }
+  #socialMedia_Icons {
+    display: flex;
+    position: relative;
+    left: -7px;
+  }
+  .Ball_Icon,
+  .twitter_Icon,
+  .facebook_Icon,
+  .Instagram_Icon,
+  .pinterest_Icon {
+    width: 25px;
+    height: 25px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+  }
+  #ShotsDribbledGen_div {
+    text-align: center;
+    border-top: 1px solid #e7e7e9;
+    padding: 30px 20px 30px 20px;
+    max-width: 84%;
+    margin: auto;
+  }
+  #numshots_Div {
+    position: relative;
+    top: 10px;
+  }
+  .numberOf_shorts {
+    margin: 0px;
+    line-height: 30px;
+  }
+  /* all media queries */
+  /* media queries for first images display */
+  @media (min-width: 672px) {
+    .Image_enclosureDiv,
+    .Image_enclosureDivSecondLayer {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: auto auto;
+    }
+  }
+  @media (min-width: 1201px) {
+    .Image_enclosureDiv {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: auto auto auto auto;
+    }
+    .ImgDisplay_heading {
+      max-width: 85%;
+      position: relative;
+      left: -42px;
+    }
+  }
+  
+  /* media queris for second img display */
+  @media (min-width: 1200px) {
+    .Image_enclosureDivSecondLayer {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: auto auto auto;
+    }
+  }
+  @media (min-width: 920px) {
+    .Image_enclosureDiv,
+    .Image_enclosureDivSecondLayer {
+      padding: 0px 120px;
+    }
+    .pointingman_Img {
+      border-radius: 9px;
+      width: 100%;
+    }
+    .ImgDisplay_heading {
+      width: 73%;
+    }
+    .Section_One {
+      max-width: 845px;
+      margin: 0px auto;
+      position: relative;
+    }
+  }
+  
+  /* media queries for navbar */
+  @media (max-width: 920px) {
+    .sharemyworkbtn,
+    .Icon_search {
+      display: none;
+    }
+    #searchbar{
+      display:block;
+      padding:11px 0px 11px 0px;
+      border-radius:4px;
+      border:none;
+      border:solid 1px #e6e5e6;
+      background-color: #f3f3f4;
+      width:90%;
+  }
+  #searchbar:hover{
+      background-color: #fff;
+      box-shadow: 0px 0px 3px 5px #e1005636;
+      transition:300ms;
+     transition-timing-function: ease-in-out;
+  }
+  [offset]{
+      transform: translate(-60em);
+  }
+  .link{
+      font-size: 18px;
+  }
+    .nav_links_Firstgrp {
+      display: block;
+      padding:20px;
+      background-color:#ffff;
+      position: fixed;
+      left: 0px;
+      top: 71px;
+      width: 100%;
+      height: 100%;
+    }
+    .linkOneDiv,
+    .linkTwoDiv,
+    .linkThreeDiv,
+    .linkFourDiv,
+    .linkFiveDiv,
+    .linkSixDiv {
+      display: block;
+      padding:5px, 5px 5px 0px;
+    }
+    .cully_text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-75%, -50%);
+      cursor: pointer;
+    }
+.Sign_In {
+    top: -6px;
+}
+    .menu_icon{
+  width:20px;
+  height: 20px;
+   display:block;
+  }
+  }
+  /* media queries to hide L F like */
+  @media (max-width: 769px) {
+    .L,
+    .F,
+    .Like {
+      display: none;
+    }
+  }
+  /* media queries for footer oganization */
+  @media (min-width: 861px) {
+    #subContainer {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+    }
+    #ShotsDribbledGen_div {
+      margin: auto;
+      max-width: 90%;
+    }
+  }
+  @media (min-width: 1162px) {
+    #first_footerInfoDiv {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 40px 0px 20px 30px;
+    }
+    .numberOf_shorts {
+      width: 230px;
+      position: relative;
+      top: -1px;
+      left: 4px;
+    }
+    .PinkBall {
+      float: right;
+    }
+    #ShotsDribbledGen_div {
+      display: flex;
+      justify-content: space-between;
+    }
+    .designers_container,
+    .Hire_designersContainer,
+    .company_Container,
+    .Directories_container,
+    .Design_Resources {
+      padding: 20px;
+    }
+    .socialMedia_IconDiv {
+      position: relative;
+      top: 35px;
+    }
+    #ShotsDribbledGen_div {
+      margin: auto;
+      max-width: 90%;
+    }
+  }
+  @media (max-width: 1128px) {
+    .Boy_imgTwo {
+      display: none;
+    }
+  }
+  @media (min-width: 1128px) {
+    .Icon_div {
+      position: absolute;
+      left: 722px;
+      top: 193px;
+      width: 37%;
+      transform: rotate(90deg);
+    }
+    #save_likebtn {
+      display: block;
+    }
+    .Boy_imgTwo {
+      width: 50px;
+      border-radius: 50%;
+      transform: rotate(-87deg);
+      cursor: pointer;
+    }
+    .msg_num{
+        display:none;
+    }
+  }
+  
