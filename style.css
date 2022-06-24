@@ -1,5 +1,4 @@
-body {
-    /* we remove the default margin and padding on our body*/
+body
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,8 +7,7 @@ body {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
-  
-  /* we give our landing img a width 100% to cover the entire container */
+ 
   .OurlandingImg {
     width: 100%;
   }
@@ -505,6 +503,7 @@ body {
     }
 .Sign_In {
     top: -6px;
+    left: -4px;
 }
     .menu_icon{
   width:20px;
